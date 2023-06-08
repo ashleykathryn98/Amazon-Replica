@@ -1,0 +1,221 @@
+@font-face {
+  font-family: "Amazon-Ember";
+  src: url(Fonts/Amazon-Ember.ttf);
+
+}
+
+.box {
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 45%;
+    margin-left: -60px;
+    margin-right: -60px;
+    margin-top: -120px;
+    border: 1px #ddd solid;
+    background-color: #fff;
+}
+
+.box > header {
+    font-family: "Amazon-Ember", Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    padding-bottom: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    margin: 0px;
+
+}
+
+.box > h1 {
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 400;
+    font-size: small;
+    color: rgb(93, 90, 90);
+}
+
+input {
+    position: relative;
+    text-align: left;
+    width: 97%;
+    height: 29%;
+}
+
+.box > button {
+    text-align: center;
+    background-color: #f0c14b;
+    position: relative;
+    display: block;
+    margin-top: auto;
+    height: 10%;
+    width: 99%;
+    cursor: pointer;
+}
+
+.picture > img {
+    max-width: 170px;
+    height: 90px;
+    position: absolute;
+    margin: auto;
+    top: 80px;
+    left: 2%;
+    right: 0;
+    bottom: 80;  
+}
+
+.box > h3 {
+    font-size: small;
+    color: #0066c0;
+    position: relative;
+    left: 65%;
+    top: -3%;
+}
+
+.box > h2 {
+    font-size: small;
+    position: relative;
+    color: #767676;
+    left: 10%;
+    top: 8%
+}
+
+.password {
+    position: relative;
+    top: -6%;
+}
+
+.dropdown-arrow {
+    height: 0;
+    width: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid #333;
+    position: relative;
+    transform: rotateZ(-90deg);
+    top: 45px;
+    left: 5px;
+  }
+  
+.need-help {
+    font-size: small;
+    position: absolute;
+    bottom: -2px;
+    left: 25px;
+    color: #0066c0;
+}
+
+a {
+    text-decoration: none; color:#0066c0;
+}
+
+a:hover {
+     color: orangered;
+}
+
+h5 {
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    position: relative;
+    top: 40%;
+    right: 30%;
+    margin: auto;
+}
+  
+.conditions {
+    position: relative;
+    margin-bottom: auto;
+    bottom: 30px;
+    top: 122px;
+    left: 660px;
+    font-size: x-small;
+
+}
+
+.privacy {
+    position: relative;
+    margin-bottom: auto;
+    bottom: 30px;
+    top: 110px;
+    left: 760px;
+    font-size: x-small;
+
+}
+
+.help {
+    position: relative;
+    margin-top: auto;
+    bottom: 30px;
+    top: 98px;
+    left: 840px;
+    font-size: x-small;
+
+}
+
+.create {
+    display: block;
+    margin-top: auto;
+    text-align: center;
+    position: relative;    
+    top: -15px;
+    left: 25px;
+
+}
+
+.create > button {
+    cursor: pointer;
+    height: 10%;
+    width: 20%;
+}
+
+.line-center {
+    margin: auto;
+    padding: 0 10px;
+    background: #fff;
+    display: inline-block;
+}
+
+h5 {
+    text-align: center;
+    position: relative;
+    margin-top: 32%;
+    left: 2%;
+    bottom: 50%;   
+    z-index: 2;
+
+}
+
+h5:after {
+    content:"";
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    right: 40%;
+    border-top: solid 1px black;
+    z-index:-1;
+}
+
+.line {
+    content: "";
+    height: 2px;
+    width: 1500px;
+    background: rgb(215, 213, 213);
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .bottom-text {
+    position: relative;
+    display: block;
+    font-size: x-small;
+    margin-top: 4%;
+    left: 45%;
+    height: 0%;
+  }
